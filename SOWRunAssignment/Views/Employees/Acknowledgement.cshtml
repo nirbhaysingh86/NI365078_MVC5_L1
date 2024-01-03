@@ -1,0 +1,27 @@
+﻿@model SOWRunAssignment.Models.Employee
+
+@{
+    ViewBag.Title = "Acknowledgement";
+}
+
+<h2>Acknowledgement</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Employee Number</th>
+            <th scope="col">Employee Name</th>
+            <th scope="col">Employee Email Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>@Model.Empno</td>
+            <td>@Model.Ename</td>
+            <td>@Model.EmailID</td>
+        </tr>
+        
+    </tbody>
+</table>
